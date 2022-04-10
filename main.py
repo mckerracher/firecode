@@ -44,12 +44,13 @@ class Solution:
         :param n: Integer to set on the data property of the inserted node.
         :return: Head ListNode of the modified linked list
         """
+        new_head = ListNode(n)
+        new_head.next = head
+        head = new_head
+        return head
 
 
 if __name__ == '__main__':
-    # testing solutions here
+    # test solutions here
     sol = Solution
 
-    temp_node = ListNode
-    temp_node.data = 1
-    sol.insert_at_front(temp_node)
