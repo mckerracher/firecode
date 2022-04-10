@@ -46,10 +46,10 @@ class Solution:
         """
 
 
-# Press the green button in the gutter to run the script.
 if __name__ == '__main__':
+    # testing solutions here
     sol = Solution
-    tmp = int(3)
-    print(sol.fibonacci())
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+    temp_node = ListNode
+    temp_node.data = 1
+    sol.insert_at_front(temp_node)
